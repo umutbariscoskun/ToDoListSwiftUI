@@ -10,5 +10,8 @@ import Foundation
 /// This is viewModel for single todolist item
 /// each row in items list
 class ToDoListItemViewModel: ObservableObject {
+    
+    func toggleIsDone(item: ToDoListItem){}
+    
     init(){}
 }
