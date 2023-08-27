@@ -1,6 +1,7 @@
-# GHFollowers App
+# ToDoList App
 
 #### THIS APP INCLUDES:
+- Swift UI
 - MVVM
 - FirebaseQuery
 - Managing state, listening a binding to close sheet
