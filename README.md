@@ -10,7 +10,6 @@
 
   ```swift
 private var handler: AuthStateDidChangeListenerHandle?
-    
     init(){
         self.handler = Auth.auth().addStateDidChangeListener {
             [weak self] _, user in
@@ -20,7 +19,6 @@ private var handler: AuthStateDidChangeListenerHandle?
         }
     }
 ```
-
 
 #Use a binding to close sheet
 
