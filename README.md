@@ -6,6 +6,20 @@
 - FirebaseQuery
 - Managing state, listening a binding to close sheet
 
+  #Handle user activity for whole app
+  ```swift
+    private var handler: AuthStateDidChangeListenerHandle?
+    
+    init(){
+        self.handler = Auth.auth().addStateDidChangeListener {
+            [weak self] _, user in
+            DispatchQueue.main.async {
+                self?.currentUserId = user?.uid ?? ""
+            }
+        }
+    }
+  ```
+
 | Login | Register|
 | ------------- | ------------- |
 | ![login](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/71d226bc-c2bd-4b79-a314-5d29a2c2b3b7) | ![register](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/2ed858b3-4d20-4e08-b199-56c7be15a4a6) |
