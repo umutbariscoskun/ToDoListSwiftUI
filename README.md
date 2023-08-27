@@ -9,8 +9,7 @@
   #Handle user activity for whole app
 
   ```swift
-  
-private var handler: AuthStateDidChangeListenerHandle?
+  private var handler: AuthStateDidChangeListenerHandle?
     init(){
         self.handler = Auth.auth().addStateDidChangeListener {
             [weak self] _, user in
