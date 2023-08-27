@@ -22,6 +22,34 @@ private var handler: AuthStateDidChangeListenerHandle?
 ```
 
 
+#Use a binding to close sheet
+
+  ```swift
+- at newItemView ->
+//create a binding
+@Binding var newItemPresented: Bool
+// - and assign false when you want to close it ->
+ newItemPresented = false
+
+
+- at ToDoList View and ViewModel
+//create a published var to manage sheet open and close state
+@Published var showingNewItemView = false
+// and set it true when button tapped also send it to new item view as a binding ->
+.toolbar{
+                Button{
+                    viewModel.showingNewItemView = true
+                } label: {
+                Image(systemName: "plus")
+                }
+            }
+            .sheet(isPresented: $viewModel.showingNewItemView) {
+                NewItemView(newItemPresented: $viewModel.showingNewItemView)
+            }
+
+```
+
+
 
 | Login | Register|
 | ------------- | ------------- |
