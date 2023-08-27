@@ -49,13 +49,18 @@
 
 
 
+
+
+
+
+
 | Login | Register|
 | ------------- | ------------- |
-| ![login](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/71d226bc-c2bd-4b79-a314-5d29a2c2b3b7) | ![register](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/2ed858b3-4d20-4e08-b199-56c7be15a4a6) |
+| ![login](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/dcdef3ab-ef38-49ee-b87b-7cd306432346) | ![register](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/9f52b46f-f429-4b69-9c6b-a5f66d702fe2) |
 | Profile | ToDo List |
-| ![profile](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/8edcff95-9c68-4958-8b2b-f815b91a35db) | ![todo](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/7fc4227b-3465-482d-8d2d-a873c094da7e) |
+| ![profile](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/ba61b618-1b1c-4c5a-8f34-4f1aa74d18e0) | ![todo](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/440c3071-1ee0-4e8f-967e-debb5b1073df) |
 | New Item| - |
-| ![new_item](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/db1150de-df8d-4de4-8697-88b2a9eeca1c) |  |
+| ![new_item](https://github.com/umutbariscoskun/ToDoListSwiftUI/assets/45595606/97c43784-e019-4f45-9732-66f263125313) |  |
 
 
 
